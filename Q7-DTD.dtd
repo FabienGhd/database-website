@@ -1,0 +1,34 @@
+<!ELEMENT industrie (documentation+, maisonDisque*)>
+<!ELEMENT documentation (lien|texte)*>
+<!ELEMENT maisonDeDisque (nom, documentation?, artiste*)> 
+<!ELEMENT artiste (nom, album+)>
+<!ELEMENT album (nom, date, vente, certification*)>
+<!ELEMENT certification (libelle, date)>
+<!ELEMENT texte (#PCDATA)>
+<!ELEMENT libelle EMPTY>
+<!ELEMENT lien (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT vente (#PCDATA)>
+
+
+<!ATTLIST documentation
+    date CDATA #IMPLIED
+    auteur CDATA #IMPLIED
+>
+<!ATTLIST artiste 
+    id ID #REQUIRED
+    id_MaisonDisque IDREF #REQUIRED
+>
+<!ATTLIST maisonDisque 
+    id ID #REQUIRED
+>
+<!ATTLIST album 
+    id ID #REQUIRED
+    id_Artiste IDREF #REQUIRED
+>
+<!ATTLIST libelle
+    or CDATA #IMPLIED
+    platine CDATA #IMPLIED
+    diamant CDATA #IMPLIED
+>

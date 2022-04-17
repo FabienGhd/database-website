@@ -1,0 +1,70 @@
+<industrie>
+
+    <documentation>
+        <lien>https://hiphopcorner.fr/rap-francais/snep-rapport-streaming-rap-2020</lien>
+        <texte>En savoir plus sur l'industrie musicale du Rap</texte>
+    </documentation>
+
+    <maisonDeDisque id="1"> <!-- Notre première maison de disque est Universal Music Group -->
+        <nom>Universal Music Group</nom>
+        <documentation date="1934" auteur="Vincent Bolloré">
+            <lien>https://www.universalmusic.com/</lien>
+            <texte>Leur site officiel !</texte>
+        </documentation>
+
+        <artiste id="booba" id_MaisonDisque="1"> <!-- Notre premier artiste est Booba -->
+            <nom>Booba</nom>
+            <album id="lunatic" id_Artiste="booba">
+                <nom>Lunatic</nom>
+                <date>2010</date>
+                <vente>110 000</vente> 
+                <!-- Cette album n'a pas de certification-->
+            </album>
+            <album id="futur" id_Artiste="booba"> 
+                <nom>Futur</nom>
+                <date>2012</date>
+                <vente>300 000</vente>
+            </album>
+            <album id="ultra" id_Artiste="booba">
+                <nom>Ultra</nom>
+                <date>2021</date>
+                <vente>100 000</vente>
+                <certfication>
+                    <libelle platine="obtenu">
+                        <date>10 juin 2021</date>
+                    </libelle>
+                </certfication>
+            </album>
+        </artiste>
+
+        <artiste id="stromae" id_MaisonDisque="1"> <!-- Notre deuxième artiste est Stromae-->
+            <nom>Stromae</nom>
+            <album id="cheese" id_Artiste="stromae">
+                <nom>Cheese</nom>
+                <date>juin 2010</date>
+                <vente>300 000</vente>
+            </album>
+            <album id="racine" id_Artiste="stromae">
+                <nom>Racine Carrée</nom>
+                <date>Août 2013</date>
+                <vente>2 millions</vente>
+                <certification>
+                    <libelle diamant="obtenu">
+                        <date>2013</date>
+                    </libelle>
+                    <libelle diamant="obtenu">
+                        <date>juin 2014</date>
+                    </libelle>
+                    <libelle diamant="obtenu">
+                        <date>septembre 2014</date>
+                    </libelle>
+                    <libelle diamant="obtenu">
+                        <date>novembre 2014</date>
+                    </libelle>
+                </certification>
+            </album>
+
+        </artiste>
+
+    </maisonDeDisque>
+</industrie>
