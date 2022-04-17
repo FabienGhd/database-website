@@ -20,20 +20,16 @@ h1 {
 	font-size: 80px;
 	margin-bottom: 30px;
 }
-p {
-    color: white
-}
+
 form {
     padding: 1em;
     
 }
 form > input:hover {
     background-color: #4CAF50;
-    color: white
+    color: white 
 }
 input {
-    border: none;
-	outline: none;
 	padding: 10px 20px;
 	border-radius: 50px;
 	color: #333;
@@ -45,7 +41,6 @@ input {
 nav {
     display: block;
     text-align: center;
-    color: white;
 }
 ul li {
     border: 4mm solid #bedcd069 ;
@@ -57,10 +52,9 @@ ul li {
     margin-top: 200px;
  }
 
- a {
-     color: white;
-     font-size: 2em;
-     text-decoration:none; 
+a {
+    font-size: 2em;
+    text-decoration:none; 
  }
  a:hover {
     color: #3ca0e7;
