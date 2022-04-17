@@ -1,0 +1,23 @@
+h1.mcd{
+    background: linear-gradient(
+        to right, 
+        hsl(98 100% 62%), 
+        hsl(204 100% 59%)
+      );
+      -webkit-background-clip: text; /* seulement le texte est gradient */
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+    
+}
+a > button {
+    background: linear-gradient(
+        to right, 
+        hsl(98 100% 62%), 
+        hsl(204 100% 59%)
+      );
+      -webkit-background-clip: text; /* seulement le texte est gradient */
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+    transition-duration: 0.4s;
+    margin-bottom: 10px;
+}
