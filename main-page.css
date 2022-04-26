@@ -21,3 +21,7 @@ a > button {
     transition-duration: 0.4s;
     margin-bottom: 10px;
 }
+
+a {
+  font-size: 1em;
+}
