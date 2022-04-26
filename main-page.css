@@ -14,19 +14,18 @@ h1.mcd{
       -webkit-background-clip: text; /* seulement le texte est gradient */
       -webkit-text-fill-color: transparent;
       text-align: center;
+      font-family: 'Dancing Script', cursive;
+	  font-size: 80px;
+	  margin-bottom: 30px;
     
 }
 a > button {
-    background: linear-gradient(
-        to right, 
-        hsl(98 100% 62%), 
-        hsl(204 100% 59%)
-      );
-      -webkit-background-clip: text; /* seulement le texte est gradient */
-      -webkit-text-fill-color: transparent;
-      text-align: center;
-    transition-duration: 0.4s;
-    margin-bottom: 10px;
+    background-color: black;
+}
+.page-suivante > button {
+  position:relative; 
+  display:inline-block; 
+  float:right;
 }
 
 a {
@@ -39,4 +38,8 @@ img {
 
 div { /* chaque div aura son contenu centré */
   text-align: center;
+}
+
+ul li {
+  list-style-type: circle;
 }
