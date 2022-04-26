@@ -55,6 +55,6 @@ ul li {
   float:left;
   width:47%;
 }
-#droite {
+div[id='gauche'] + div { /*Adjacent sibling selector*/
   overflow:auto;
 }
