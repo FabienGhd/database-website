@@ -1,9 +1,10 @@
-* {
+html {
   color: aliceblue;
   background-color: #5F6A6A;
   text-shadow: 1px 1px 1px #333;
   background-image: linear-gradient( 135deg, #bedcd069 10%, #1c16136b 100%);
 }
+
 
 h1.mcd{
     background: linear-gradient(
@@ -21,6 +22,7 @@ h1.mcd{
 }
 a > button {
     background-color: black;
+    color: white;
 }
 .page-suivante > button {
   position:relative; 
@@ -41,5 +43,18 @@ div { /* chaque div aura son contenu centré */
 }
 
 ul li {
+  margin: 1em;
   list-style-type: circle;
+  list-style-position: inside;
+
+}
+#global {
+  overflow:auto;
+}
+#gauche {
+  float:left;
+  width:47%;
+}
+#droite {
+  overflow:auto;
 }
