@@ -75,14 +75,17 @@ a {
      margin-right: auto;
      border-color: salmon;
     
+    
  }
 td {
      border-color: #3498DB;
      text-align:center;
-     
+     padding: 1em;
  }
-
  /*Titre en majuscules */
+ tr > th {
+     text-transform: uppercase;
+ }
  
 
  
