@@ -1,2 +1,3 @@
 # database-website
-https://media.giphy.com/media/XNdshzuoDUgX5XHNMD/giphy.gif 
+![Alt Text](https://media.giphy.com/media/XNdshzuoDUgX5XHNMD/giphy.gif )
+
